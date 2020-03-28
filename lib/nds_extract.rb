@@ -32,6 +32,5 @@ def directors_totals(nds)
 
     x += 1
   end
-
   return result
 end
