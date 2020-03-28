@@ -22,3 +22,7 @@ def directors_totals(nds)
   pp nds
   nil
 end
+
+def sum 
+  
+end 
