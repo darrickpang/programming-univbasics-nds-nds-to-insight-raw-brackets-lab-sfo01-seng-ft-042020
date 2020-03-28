@@ -27,4 +27,14 @@ def directors_totals(nds)
   return result 
 end
 
+def total(movie)
+  sum = 0
+  x = 0
 
+  while x < movie[:movies].length do
+    sum += movie[:movies][x][:worldwide_gross]
+    x += 1
+  end
+
+  return sum
+end
