@@ -7,6 +7,7 @@ def directors_totals(nds)
   #
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
+  
   result = {
   }
   #
@@ -18,5 +19,6 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
+  pp nds
   nil
 end
