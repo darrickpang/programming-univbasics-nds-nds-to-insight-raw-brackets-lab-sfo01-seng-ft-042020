@@ -18,10 +18,13 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  pp nds
+  x = 0
+  while x < source.size do
+    director = source[x]
+    result[director[:name]] = gross_for_director(director)
+    x += 1
+  end
   return result 
 end
 
-def sum 
-  
-end 
+
